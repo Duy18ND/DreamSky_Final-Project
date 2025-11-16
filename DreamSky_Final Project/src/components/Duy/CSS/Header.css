@@ -11,8 +11,8 @@
 }
 .Header_img_Item2 {
   position: absolute;
-  top: 655px;
-  height: 280px;
+  top: 510px;
+  height: 240px;
   left: 0px;
   z-index: 11;
   width: 100%;
@@ -21,16 +21,16 @@
 }
 .Header_img_Item1 {
   position: absolute;
-  top: 0px;
+  top: -10px;
   left: 0px;
-  height: 170px;
+  height: 150px;
   z-index: 11;
   width: 100%;
 }
 .Header_Title1 {
   position: absolute;
-  top: 170px;
-  left: 930px;
+  top: 135px;
+  left: 750px;
   z-index: 11;
   background: linear-gradient(90deg, #F4C76D 0%, #F4D98A 50%, #F4C76D 100%);
   color: #2D6B4E;
@@ -52,9 +52,9 @@
 .Header_Title2 {
   position: absolute;
   left: 50%;
-  top: 38%;
+  top: 39%;
   transform: translate(-50%, -50%);
-  width: 600px;
+  width: 500px;
   z-index: 11;
   color: #ffcd64;
   opacity: 0;
@@ -63,15 +63,15 @@
 .Header_Title3 {
   position: absolute;
   left: 50%;
-  top: 65%;
+  top: 64%;
   transform: translate(-50%, -50%);
   width: 500px;
   z-index: 11;
-  font-size: 26px;
+  font-size: 20px;
   color: #ffcd64;
   font-weight: bold;
   text-align: center;
-  line-height: 29px;
+  line-height: 26px;
   opacity: 0;
   animation: fadeInUpCenter 0.8s ease-out 0.8s forwards;
 }
