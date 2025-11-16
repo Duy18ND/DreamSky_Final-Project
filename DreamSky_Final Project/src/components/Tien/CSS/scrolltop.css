@@ -1,0 +1,29 @@
+.scroll-top-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ff4d6d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0;
+  transform: scale(0.7);
+  transition: all 0.3s ease;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.scroll-top-btn.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.scroll-top-btn:hover {
+  background-color: #ff073a;
+}

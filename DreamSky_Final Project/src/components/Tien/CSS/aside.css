@@ -1,0 +1,102 @@
+.aside-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+}
+.aside-total{
+  background-color: #fae1dd;
+}
+.aside-youtube {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
+
+/* .abc{
+    background-color: #dc2626;
+    color: red;
+} */
+/* ==== LEFT VIDEO AREA ==== */
+.aside-video-wrapper {
+  position: relative;
+  width: 580px;
+  height: 340px;
+  flex-shrink: 0;
+}
+
+.aside-video-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Play Button */
+.aside-play-btn {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside-play-icon {
+  width: 110px;
+  height: 110px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.aside-play-icon:hover {
+  transform: scale(1.05);
+}
+
+.aside-triangle {
+  width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-left: 32px solid #e53e3e;
+  margin-left: 5px;
+}
+
+
+/* ==== RIGHT QUOTE AREA ==== */
+.aside-quote-card {
+  flex: 1;
+  border: 2px solid #e5e7eb;
+  padding: 42px;
+  border-radius: 14px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.aside-quote-text {
+  font-size: 24px;
+  color: #1f2937;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+.aside-Title{
+    color: #0a111c;
+    font-size: 40px;
+    font-weight: 700;
+}
+

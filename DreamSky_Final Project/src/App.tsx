@@ -1,12 +1,26 @@
-// import React from 'react'
+
+import './App.css'
 import Header from './components/Duy/Header'
 import Section from './components/Duy/Section'
+import Aside from './components/Tien/Aside'
 
-export default function App() {
+
+
+import Footer from './components/Tien/Footer'
+import ScrollToTopButton from './components/Tien/ScrollToTopButton'
+
+function App() {
+ 
+
   return (
-    <div>
-      <Header/>
-      <Section/>
-    </div>
+    <>
+      <Header></Header>
+      <Section></Section>
+      <Aside></Aside>
+      <Footer></Footer>
+      <ScrollToTopButton></ScrollToTopButton>
+    </>
   )
 }
+
+export default App
