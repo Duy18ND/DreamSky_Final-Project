@@ -298,6 +298,17 @@
   box-shadow: 0 0 3px 1px white;
   opacity: 0;
 }
+.textLetter h2 {
+  font-family: "Dancing Script", cursive;
+}
+
+.contentLetter {
+  font-family: "Dancing Script", cursive;
+}
+.textLetter {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 @keyframes hover {
   0% {
@@ -575,7 +586,7 @@
 .phai {
 
   right: 20px;
- 
+
 
 }
 

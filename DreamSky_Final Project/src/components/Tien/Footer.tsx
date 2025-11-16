@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./CSS/footer.css";
 import { X } from 'lucide-react';
+
 const Footer: React.FC = () => {
   //nâng thẻ khi hơ chuột 
   const [isCardHovered, setIsCardHovered] = useState(false);
