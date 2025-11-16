@@ -1,0 +1,113 @@
+/* Container toàn màn hình */
+.single-screen-container {
+  font-family: 'Playfair Display', serif;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #fae1dd;
+}
+
+/* Slide wrapper (full màn hình) */
+.slide-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Container cho slideshow ảnh */
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* QUAN TRỌNG: Ẩn phần ảnh bị tràn ra ngoài */
+}
+
+/* Hình nền */
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  will-change: transform, opacity; /* Tối ưu hiệu năng animation */
+}
+
+/* Lớp phủ mờ */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+/* Text content - Góc trên bên trái */
+.text-content {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: white;
+  text-align: left;
+  max-width: 50%;
+  z-index: 10;
+}
+
+.text-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05em;
+  text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.8);
+  font-family: sans-serif;
+}
+
+.text-content p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0.8rem 0;
+  line-height: 1.6;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .text-content {
+    top: 5%;
+    left: 5%;
+    max-width: 90%;
+  }
+  
+  .text-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .text-content p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-content {
+    top: 5%;
+    left: 5%;
+    max-width: 90%;
+  }
+  
+  .text-content h1 {
+    font-size: 2rem;
+  }
+  
+  .text-content p {
+    font-size: 1rem;
+  }
+}
